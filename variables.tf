@@ -144,7 +144,7 @@ variable "key_name" {
 
 
 variable "public_data_endpoint_enabled" {
-  type        = string
+  type        = bool
   description = "Enter false/true if public data endpoint to be enabled"
   default     = false
 }
